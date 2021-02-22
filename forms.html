@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <body>
+      <h1>Forms</h1>
+      <form>
+          <label for="usraddr">Address:</label><br>
+          <input type="text" id="usraddr" name="usraddr" size="50" maxlength="25"
+          placeholder= "100 Innovation Drive "><br>
+          <lable for="postal">Postal Code:</label><br>
+            <input type="text" id="postal" name="postal" size="50" maxlength="6"
+            placeholder="R3T 0M0"><br>
+            <label for="usrcity">City: </label><br>
+            <input type ="text" id="usrcity" name="usrcity" size="50" maxlength="25"
+            placeholder="Winnipeg"><br>
+
+            <p>Select Shipping Method:</p>
+            <label for="shipng">Shipping Types:</label>
+            <select id="shipng" name="shipng">
+            <option value="StandardShipping">Standard Shipping</option>
+            <option value="OneDay">One Day Shipping</option>
+            <option value="TwoDay">Two Day Shipping</option>
+            
+</select>
+          <p>Select Payment Method:</p>      
+  <input type="radio" id="paypal" name="paymnt" value="paypal" checked="checked">
+  <label for="PayPal">PayPal</label><br>
+  <input type="radio" id="credit" name="paymnt" value="credit">
+  <label for="CreditCard">Credit Card</label><br>
+  <input type="radio" id="debit" name="paymnt" value="debit">
+  <label for="DebitCard">Debit Card</label>
+</select>
+<br>
+          
+                
+                
+              <label for="comments"></label>
+              <p>Comments</p>
+            
+              <textarea id="comments" name="comments" rows="4" cols="40">
+                </textarea>
+                <br><br>
+                
+                <label><input type="checkbox" name="email" checked="checked">Sign me up for e-mail updates </label>
+                <br>
+                <label><input type="checkbox" name="pinfo" checked="checked">Save my payment information </label>
+                <br><br>
+                <input type="submit" value="Submit">
+             
+              
+          </select>
+
+    </form>
+
+    </body>
+</html>
